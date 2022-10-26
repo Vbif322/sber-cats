@@ -1,3 +1,25 @@
 body {
     padding: 0;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 80vh;
+    width: 80vw;
+    gap: 20px;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+}
