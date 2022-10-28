@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="api.js"></script>
     <title>Sber-cats</title>
 </head>
 
 <body>
-    <h1>Hello Kitty</h1>
     <div class="wrapper">
-        <div class="menu">
-            <button id="add">+</button>            
-            <h2>Лавка котиков</h2>            
-        </div>
+        <header>
+            <div class="menu">
+                <button id="add">+</button>
+                <p>Лавка котиков</p>
+                <img src="/assets/Корзина 1.svg" alt="Корзина" class="cart">
+            </div>
+        </header>
         <div class="field">
-                <div class="card">
-
-                </div>
+            <div class="card">
+                <p class="card__name">Лунтик</p>
+                <p class="card__age">9 лет</p>
+                <p class="card__rate">★★★★★</p>
+                <img src="https://fikiwiki.com/uploads/posts/2022-02/1644927822_23-fikiwiki-com-p-smeshnie-kartinki-pro-kotyat-23.jpg"
+                    class="card__foto">
+                <p class="card__cost">Примерная стоимость</p>
+                <button id="about">Подробнее</button>
+            </div>
         </div>
     </div>
 
