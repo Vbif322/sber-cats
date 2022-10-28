@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    width: 1900px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -27,7 +27,7 @@ header {
 .menu {
     font-size: 40px;
     width: 73%;
-    height: 100px;
+    height: 8vh;
     background-color: #68C1F3;
     display: flex;
     justify-content: space-between;
