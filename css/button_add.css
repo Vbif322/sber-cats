@@ -1,0 +1,46 @@
+#add {
+    width: 58px;
+    height: 58px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #FF9973;
+    font-size: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-decoration: none;
+    color: #000;
+}
+
+#add p {    
+    position: relative;
+    top: -3px;
+}
+
+.add__text{
+    font-size: 24px;
+}
+
+#add:hover{
+    transition: all 0.2s linear;
+    transform: rotate(90deg);
+}
+
+#add:active {
+    width: 52px;
+    height: 52px;
+    margin-left: 13px;
+    margin-right: 3px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -3,8 +3,10 @@
     width: 75%;
     height: 250px;
     background-color: #FFCE40;
+    border: 1px solid rgba(0, 0, 0, 0.6);
     border-radius: 15px;
 }
+
 
 .card p{
     margin: 0 10px;
@@ -26,8 +28,18 @@
     height: 45px;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 2px 1px;
     top: -85px;
     right: -30px;
+}
+
+#about:hover{
+    transition: all 0.2s linear;
+    transform: scale(1.05);
+}
+
+#about:active{
+    box-shadow: none;
 }
 
 .card__cost{
