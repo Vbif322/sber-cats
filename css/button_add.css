@@ -1,4 +1,4 @@
-#add {
+.btnAdd {
     width: 40px;
     height: 40px;
     margin-left: 10px;
@@ -14,7 +14,7 @@
     color: #000;
 }
 
-#add p {    
+.btnAdd p {    
     position: relative;
     top: -3px;
 }
@@ -23,12 +23,12 @@
     font-size: 24px;
 }
 
-#add:hover{
+.btnAdd:hover{
     transition: all 0.2s linear;
     transform: rotate(90deg);
 }
 
-#add:active {
+.btnAdd:active {
     width: 36px;
     height: 36px;
     margin-left: 12px;

@@ -50,4 +50,5 @@ header {
     background-color: #68C1F3;
     border-radius: 10px;
     box-shadow: 0px -2px 4px 5px rgba(0, 0, 0, 0.4);
+    gap: 10px;
 }

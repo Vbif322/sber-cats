@@ -1,6 +1,6 @@
 class Api {
     constructor () {
-        this.url = 'sb-cats.herokuapp.com/api/2/vbif322'
+        this.url = 'https://sb-cats.herokuapp.com/api/2/vbif322'
     }
 
     showCats() {
