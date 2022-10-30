@@ -25,6 +25,72 @@
                 <img src="/assets/Корзина 1.svg" alt="Корзина" class="cart">
             </div>
         </header>
+        <div id='popup' class="popup-wrapper unactive">
+            <div class="popup">
+                <div class="close">
+                    <p>+</p>
+                </div>
+                <form id="form">
+                    <p>Форма для добавления кота</p>
+
+                    <div class="container">
+                        <label for="i1">Имя кота</label>
+                        <input type="text" id="i1" name="name" required>
+                    </div>
+
+                    <div class="container">
+                        <label for="i2">Возраст</label>
+                        <input type="number" id="i2" name="age" min="0" max="25">
+                    </div>
+
+                    <div class="container">
+                        <label for="i3">Ссылка на картинку</label>
+                        <input type="text" id="i3" name="img_link">
+                    </div>
+
+                    <div class="container">
+                        <label for="i4">Рейтинг</label>
+                        <div class="radio">
+                            <input type="radio" id="i4_1" name="rate">
+                            <label for="i4_1">1</label>
+
+                            <input type="radio" id="i4_2" name="rate">
+                            <label for="i4_2">2</label>
+
+                            <input type="radio" id="i4_3" name="rate">
+                            <label for="i4_3">3</label>
+
+                            <input type="radio" id="i4_4" name="rate">
+                            <label for="i4_4">4</label>
+
+                            <input type="radio" id="i4_5" name="rate">
+                            <label for="i4_5">5</label>
+
+                            <input type="radio" id="i4_6" name="rate">
+                            <label for="i4_6">6</label>
+
+                            <input type="radio" id="i4_7" name="rate">
+                            <label for="i4_7">7</label>
+
+                            <input type="radio" id="i4_8" name="rate">
+                            <label for="i4_8">8</label>
+
+                            <input type="radio" id="i4_9" name="rate">
+                            <label for="i4_9">9</label>
+
+                            <input type="radio" id="i4_10" name="rate">
+                            <label for="i4_10">10</label>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <label for="i5">Описание</label>
+                        <textarea id="i5" name="description"></textarea>
+                    </div>
+                    <button type="submit" class="form__btn">Добавить кота</button>
+                </form>
+            </div>
+        </div>
         <div class="field">
             <div class="card">
                 <div class="card__info">
