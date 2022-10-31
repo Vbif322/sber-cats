@@ -36,6 +36,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 2px 3px;
+}
+
+.close:hover {
+    box-shadow: none;
 }
 
 #form {
